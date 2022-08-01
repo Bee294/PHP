@@ -34,22 +34,23 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Age:</strong>
-                    <textarea class="form-control" name="age" style="height: 150px"
-                              placeholder="Age">{{$student->age}}
-                    </textarea>
+                    <input type="number" name="age" class="form-control" style="height: 150px"
+                           value="{{$student->address}}" placeholder="Age">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Address:</strong>
-                    <input type="number" name="address" class="form-control" style="height: 150px"
-                           value="{{$student->address}}" placeholder="Address">
+                    <textarea class="form-control" name="address" style="height: 150px"
+                              placeholder="Age">{{$student->age}}
+                    </textarea>
                 </div>
             </div>
+
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Telephone:</strong>
-                    <input type="number" name="product_qty" class="form-control" style="height: 150px"
+                    <input type="text" name="product_qty" class="form-control" style="height: 150px"
                            value="{{$student->telephone}}" placeholder="Telephone">
                 </div>
             </div>

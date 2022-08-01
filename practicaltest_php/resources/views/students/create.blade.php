@@ -32,20 +32,21 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Age:</strong>
-                    <textarea class="form-control" style="height: 150px" name="age" placeholder="Age Student"></textarea>
+                    <strong>Address:</strong>
+                    <input type="number" class="form-control" name="age" placeholder="Age">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Address:</strong>
-                    <input type="number" class="form-control" name="address" placeholder="Address">
+                    <textarea class="form-control" style="height: 150px" name="address" placeholder="Addess Student"></textarea>
                 </div>
             </div>
+
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Telephone:</strong>
-                    <input type="number" class="form-control" name="telephone" placeholder="Telephone">
+                    <input type="text" class="form-control" name="telephone" placeholder="Telephone">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
