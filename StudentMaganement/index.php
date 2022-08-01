@@ -29,5 +29,7 @@ $result = mysqli_query($mysqli,"SELECT * FROM student ORDER BY id DESC");
         }
         ?>
     </table>
+
+        <a href="logout.php">Log out</a>
 </body>
 </html>
